@@ -10,6 +10,7 @@ variable "azurerm_virtual_network" {
   
 }
 variable "address_space" {
+type = "list"
   
 }
 variable "subnet" {
