@@ -4,21 +4,21 @@ resource "azurerm_resource_group" "example" {
 }
 
 resource "azurerm_virtual_network" "example" {
-  name                = var.azurerm_virtual_network
+  name                = var.virtual_network_name
   location            = azurerm_resource_group.example.location
   resource_group_name = azurerm_resource_group.example.name
   address_space       = var.address_space
 
 
   subnet {
-    name           = var.subnet
+    name           = var.subnet_name
     address_prefix = var.address_prefix
   }
 
   
 }
 resource "azurerm_managed_disk" "example" {
-  name                 = var.azurerm_managed_disk
+  name                 = var.managed_disk_name
   resource_group_name  = azurerm_resource_group.example.name
   location             = azurerm_resource_group.example.location
   create_option        = var.create_option
