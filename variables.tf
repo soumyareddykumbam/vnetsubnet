@@ -7,7 +7,7 @@ variable "resource_group_location" {
 type = "string"
   
 }
-variable "azurerm_virtual_network" {
+variable "virtual_network_name" {
 type="string"
   
 }
@@ -15,7 +15,7 @@ variable "address_space" {
 type = "list"
   
 }
-variable "subnet" {
+variable "subnet_name" {
 type = "string"
   
 }
@@ -23,7 +23,7 @@ variable "address_prefix" {
 type = "list"
   
 }
-variable "azurerm_managed_disk" {
+variable "managed_disk_name" {
 type = "string"
   
 }
@@ -35,7 +35,4 @@ variable "create_option" {
 type = "string"
   
 }
-variable "disk_size_gb" {
-type = "string"
-  
-}
+variable "disk_size_gb" {}
