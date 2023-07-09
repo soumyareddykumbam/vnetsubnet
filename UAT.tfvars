@@ -1,10 +1,10 @@
 resource_group_name = "UAT-testrg34"
 resource_group_location = "West Europe"
-azurerm_virtual_network = "UAT-vnet1"
+virtual_network_name = "UAT-vnet1"
 address_space = ["10.0.0.0/16"]
-subnet = "UAT-subnet1"
+subnet_name = "UAT-subnet1"
 address_prefix = "10.0.1.0/24"
-azurerm_managed_disk = "UAT-disk1"
+managed_disk_name = "UAT-disk1"
 create_option = "Empty"
 storage_account_type = "Standard_LRS"
 disk_size_gb = "4"
