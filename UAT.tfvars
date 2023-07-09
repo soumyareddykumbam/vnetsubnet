@@ -1,4 +1,4 @@
-resource_group_name = "UAT-testrg34"
+resource_group_name = "UATtestrg34"
 resource_group_location = "West Europe"
 virtual_network_name = "UAT-vnet1"
 address_space = ["10.0.0.0/16"]
