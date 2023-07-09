@@ -1,10 +1,10 @@
 resource_group_name = "prod-testrg34"
 resource_group_location = "West Europe"
-azurerm_virtual_network = "prod-vnet1"
+virtual_network_name = "prod-vnet1"
 address_space = ["10.0.0.0/16"]
-subnet = "prod-subnet1"
+subnet_name = "prod-subnet1"
 address_prefix = "10.0.1.0/24"
-azurerm_managed_disk = "prod-disk1"
+managed_disk_name = "prod-disk1"
 create_option = "Empty"
 storage_account_type = "Standard_LRS"
 disk_size_gb = "4"
