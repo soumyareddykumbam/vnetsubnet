@@ -7,4 +7,4 @@ address_prefix = "10.0.1.0/24"
 azurerm_managed_disk = "dev-disk1"
 create_option = "Empty"
 storage_account_type = "Standard_LRS"
-disk_size_gb = "4"
+disk_size_gb = 4
