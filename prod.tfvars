@@ -1,7 +1,7 @@
 resource_group_name = "prod-testrg34"
 resource_group_location = "West Europe"
 azurerm_virtual_network = "prod-vnet1"
-address_space = "10.0.0.0/16"
+address_space = ["10.0.0.0/16"]
 subnet = "prod-subnet1"
 address_prefix = "10.0.1.0/24"
 azurerm_managed_disk = "prod-disk1"
