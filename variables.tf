@@ -20,7 +20,7 @@ type = string
   
 }
 variable "address_prefix" {
-type = list
+type = string
   
 }
 variable "managed_disk_name" {
