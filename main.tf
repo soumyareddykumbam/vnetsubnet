@@ -21,6 +21,7 @@ resource "azurerm_managed_disk" "example" {
   name                 = var.azurerm_managed_disk
   resource_group_name  = azurerm_resource_group.example.name
   location             = azurerm_resource_group.example.location
+  create_option        = var.create_option
   storage_account_type = var.storage_account_type
   disk_size_gb      = var.disk_size_gb
 

@@ -24,6 +24,9 @@ variable "azurerm_managed_disk" {
 variable "storage_account_type" {
   
 }
+variable "create_option" {
+  
+}
 variable "disk_size_gb" {
   
 }
