@@ -1,4 +1,4 @@
-resource_group_name = "prod-testrg34"
+resource_group_name = "prodtestrg34"
 resource_group_location = "West Europe"
 virtual_network_name = "prod-vnet1"
 address_space = ["10.0.0.0/16"]
