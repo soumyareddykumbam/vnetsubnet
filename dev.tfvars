@@ -1,7 +1,7 @@
 resource_group_name = "dev-testrg34"
 resource_group_location = "West Europe"
 azurerm_virtual_network = "dev-vnet1"
-address_space = "10.0.0.0/16"
+address_space = ["10.0.0.0/16"]
 subnet = "dev-subnet1"
 address_prefix = "10.0.1.0/24"
 azurerm_managed_disk = "dev-disk1"
